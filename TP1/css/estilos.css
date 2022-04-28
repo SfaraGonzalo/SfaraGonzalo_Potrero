@@ -1,0 +1,38 @@
+/*
+SINTAXIS:
+
+selector{
+  propiedad:valorDePropiedad;
+}
+
+Selector de etiqueta = etiqueta
+Selector de clase= .NombreClase
+Selector de ID= #ID
+Selector universal= *
+
+
+CODIGO PROLIJO => INDENTACION
+
+MEZCLA DE COLORES= RGB
+
+
+HERENCIA= heredar propiedades a elementos hijos
+ESPECIFIDAD= El selector más específico reinará
+CASCADA= queda el ultimo
+*/
+
+p{
+  color:green;
+}
+
+.parrafosRojo{
+  color:red;
+}
+
+#parrafoAzul{
+  color:blue;
+}
+
+#listaSuper h2{
+  color:red;
+}
